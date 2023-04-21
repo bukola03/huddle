@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+    /* background: url(../images/bg-section-bottom-desktop-1.svg);
+    background-size: contain;
+    background-repeat: no-repeat; */
+    background-color: hsl(207, 100%, 98%);
+}
