@@ -1,5 +1,16 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.3.1"
+  "name": "bukola03",
+  "version": "1.0.0",
+  "description": "bazzlycodes fork project from bukola03",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch",
+    "pro": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --minify"
+  },
+  "author": "bukola03",
+  "license": "MIT",
+  "dependencies": {
+
+     "tailwindcss": "^3.3.1"
   }
 }
